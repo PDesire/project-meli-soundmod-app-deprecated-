@@ -18,6 +18,7 @@ Misrenderings on LG Phones and Tablets
 Inefficient coded and hardcoded strings included which needs to be fixed
 Translations to other languages
 Renaming of app because name of Soundmod has been changed
+Renaming of the package name to remove the example class in it
 
 
 # How to compile the app
