@@ -18,6 +18,7 @@ Misrenderings on LG Phones and Tablets
 Inefficient coded and hardcoded strings included which needs to be fixed
 Translations to other languages
 Renaming of app because name of Soundmod has been changed
+Changing Package name to com.teamprojectdesire.melisoundeffects because the old package name was just a test version
 
 
 # How to compile the app
