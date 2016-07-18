@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yume Audio Dreamer</string>
+
+    <string name="audio_settings">Audio Settings</string>
+
+
+    <!-- DESIRE PLAYER STRINGS -->
+
+    <string name="desire_player_description">Modified Apps made by PDesire, themed like Project Desire. Works only on Sony Xperia devices with Stock LP ROM</string>
+    <string name="desire_player_title">Desire Apps</string>
+
+
+    <!-- DTS STRINGS -->
+
+    <string name="dts_description">Does make the Soundstage wider with newest DTS Surround Sound Technology, made by DTS Engineers and performed by PDesire</string>
+    <string name="dts_title">DTS Surround Sound</string>
+
+
+	<!-- HEAVYBASS STRINGS -->
+
+    <string name="heavybass_description">Enable/Disable Heavybass Mode</string>
+    <string name="heavybass_title">Heavybass Mode (Just for Headphones)</string>
+
+    <!-- YUME ONE TREBBLE STRINGS -->
+
+    <string name="trebble_description">Enable/Disable the old Trebble definition from Project Yume One</string>
+    <string name="trebble_title">Yume One Trebble Definition</string>
+
+
+	<!-- OVERSAMPLING STRINGS -->
+
+    <string name="oversampling_description">Boosts Definition of the Sound via Oversampling</string>
+    <string name="oversampling_title">Oversampling</string>
+
+
+	<!-- SRS STRINGS -->
+
+    <string name="srs_bluetooth_description">Includes Special Features on Bluetooth Audio made by SRS and configured by PDesire</string>
+    <string name="srs_bluetooth_title">SRS Audio on Bluetooth Audio</string>
+    <string name="srs_headphones_description">Includes Special Features for Headphones made by SRS and configured by PDesire</string>
+    <string name="srs_headphones_title">SRS Audio on Headphones</string>
+    <string name="srs_speaker_description">Includes Special Features on Speaker and Earpiece made by SRS and configured by PDesire</string>
+    <string name="srs_speaker_title">SRS Audio on Speaker and Earpiece</string>
+
+
+    <!-- VOLUMEBOOST STRINGS -->
+
+    <string name="volumeboost_description">Boosts Volume higher on Headphones and Speaker</string>
+    <string name="volumeboost_title">Volumeboost</string>
+
+
+    <!-- HEADER STRINGS -->
+
+    <string name="pref_header_credits">Other</string>
+    <string name="pref_header_general">Main Sound Settings</string>
+    <string name="pref_header_misc">Help</string>
+    <string name="pref_header_misc_snd">Miscellaneous Sound Settings</string>
+    <string name="pref_header_engines">Sound Engine Settings</string>
+    <string name="pref_header_alsa_snd">ALSA Status</string>
+
+
+	<!-- INFORMATION STRINGS -->
+
+    <string name="project_desire_scripting_description">2.A.0X1</string>
+    <string name="project_desire_scripting_title">Project Yume Scripting Type</string>
+    <string name="project_desire_version_description">Final Two, I found my Yume</string>
+    <string name="project_desire_version_title">Project Yume Version</string>
+    <string name="main_author_description">Tristan Marsell (PDesire)</string>
+    <string name="main_author_title">Main Author</string>
+    <string name="special_author_title">Special Credits</string>
+    <string name="team_author_description">Team Project Desire</string>
+    <string name="team_author_title">Development Team</string>
+
+
+    <!-- PROJECT HATSUNE STRINGS -->
+
+    <string name="hatsune_title">Project Hatsune</string>
+
+    <string name="hatsune_switch_description">Enables Project Hatsune, to totally enhance the sound output of external speakers</string>
+    <string name="hatsune_switch_title">Enable Project Hatsune Mode</string>
+
+    <string name="hatsune_subwoofer">Audio Systems with Subwoofer</string>
+
+    <string name="hatsune_subwoofer_description">Enhance the output of Subwoofer with clearer and punchy bass</string>
+    <string name="hatsune_subwoofer_title">Hatsune Speaker Subwoofer Mode</string>
+
+    <string name="hatsune_balancer_description">Balance the subwoofer and the other speaker to fusion them to one monumental sound experience</string>
+    <string name="hatsune_balancer_title">Hatsune Speaker Balancer</string>
+
+    <string name="hatsune_non_subwoofer">Audio Systems without Subwoofer</string>
+
+    <string name="hatsune_subwoofer_simulate_description">Simulates Subwoofer on non-subwoofer Sound Systems</string>
+    <string name="hatsune_subwoofer_simulate_title">Hatsune Subwoofer Simulator</string>
+
+    <string name="hatsune_speaker_description">Boosts Speaker to hear every vocal and every vibe like you have headphones</string>
+    <string name="hatsune_speaker_title">Hatsune Speaker Booster</string>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="AM3D Audio Enhancement" android:summary="Performs the best of AM3D in one app, enhancements in many ways for Speaker, Headphones and Bluetooth">
+        <intent android:targetPackage="com.fihtdc.am3dfx" android:action="android.intent.action.MAIN" android:targetClass="com.fihtdc.am3dfx.AM3DAudioControlPanelActivity" />
+    </PreferenceScreen>
+    <SwitchPreference
+        android:key="heavybass_switch"
+        android:summary="@string/heavybass_description"
+        android:title="@string/heavybass_title" />
+
+    <SwitchPreference
+        android:key="trebble_switch"
+        android:summary="@string/trebble_description"
+        android:title="@string/trebble_title" />
+
+
+    <PreferenceCategory android:title="" />
+    <Preference
+        android:defaultValue="true"
+        android:key="reboot_click"
+        android:summary="It's required to Reboot the System if you changed something on the settings"
+        android:title="Reboot System" />
+
+
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="DTS Surround" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="dts_switch"
+        android:summary="@string/dts_description"
+        android:title="@string/dts_title" />
+
+    <PreferenceCategory android:title="Desire Apps" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="desire_player_switch"
+        android:summary="@string/desire_player_description"
+        android:title="@string/desire_player_title" />
+
+    <PreferenceCategory android:title="SRS Audio" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="srs_headphones_switch"
+        android:summary="@string/srs_headphones_description"
+        android:title="@string/srs_headphones_title" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="srs_bluetooth_switch"
+        android:summary="@string/srs_bluetooth_description"
+        android:title="@string/srs_bluetooth_title" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="srs_speaker_switch"
+        android:summary="@string/srs_speaker_description"
+        android:title="@string/srs_speaker_title" />
+
+
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>

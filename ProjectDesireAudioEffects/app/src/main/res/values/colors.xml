@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#aa11cc</color>
+    <color name="colorPrimaryDark">#9900bb</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundColor">#440044</color>
+    <color name="backgroundWhiteColor">#ffffff</color>
+    <color name="textBrighterColor">#ffffff</color>
+    <color name="textDarkerColor">#dddddd</color>
+    <color name="textColor">#ff1177</color>
+    <color name="textDesireColor">#dd0055</color>
+    <color name="brighterRipple">#1fdd0055</color>
+</resources>

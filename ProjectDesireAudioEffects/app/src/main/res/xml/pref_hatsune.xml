@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+
+    <PreferenceCategory android:title="@string/hatsune_subwoofer" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="subwoofer_switch"
+        android:summary="@string/hatsune_subwoofer_description"
+        android:title="@string/hatsune_subwoofer_title" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="balancer_switch"
+        android:summary="@string/hatsune_balancer_description"
+        android:title="@string/hatsune_balancer_title" />
+
+
+    <PreferenceCategory android:title="@string/hatsune_non_subwoofer" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="subwoofer_simulate_switch"
+        android:summary="@string/hatsune_subwoofer_simulate_description"
+        android:title="@string/hatsune_subwoofer_simulate_title" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="speaker_switch"
+        android:summary="@string/hatsune_speaker_description"
+        android:title="@string/hatsune_speaker_title" />
+
+</PreferenceScreen>

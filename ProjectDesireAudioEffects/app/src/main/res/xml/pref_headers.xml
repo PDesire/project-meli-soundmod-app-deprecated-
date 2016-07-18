@@ -1,0 +1,21 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+    <header
+        android:fragment="com.example.pdesire.projectdesireaudioeffects.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@null"
+        android:title="@string/audio_settings" />
+    <header
+        android:fragment="com.example.pdesire.projectdesireaudioeffects.SettingsActivity$HatsunePreferenceFragment"
+        android:icon="@null"
+        android:title="@string/hatsune_title" />
+    <header
+        android:fragment="com.example.pdesire.projectdesireaudioeffects.SettingsActivity$MiscPreferenceFragment"
+        android:icon="@null"
+        android:title="@string/pref_header_misc_snd" />
+    <header
+        android:fragment="com.example.pdesire.projectdesireaudioeffects.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@null"
+        android:title="@string/pref_header_credits" />
+
+</preference-headers>
