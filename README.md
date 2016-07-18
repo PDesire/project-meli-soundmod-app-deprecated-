@@ -13,12 +13,16 @@ To improve your want to app, are all goinng to be credited who made here commits
 # What is to do
 
 Here is a little buglist of the app:
-Crashing layout on Tablets
-Misrenderings on LG Phones and Tablets
-Inefficient coded and hardcoded strings included which needs to be fixed
-Translations to other languages
-Renaming of app because name of Soundmod has been changed
-Renaming of the package name to remove the example class in it
+Crashing layout on Tablets;
+Misrenderings on LG Phones and Tablets;
+Inefficient coded and hardcoded strings included which needs to be fixed;
+Translations to other languages;
+Renaming of app because name of Soundmod has been changed;
+<<<<<<< HEAD
+Renaming of the package name to remove the example class in it;
+=======
+Changing Package name to com.teamprojectdesire.melisoundeffects because the old package name was just a test version;
+>>>>>>> origin/master
 
 
 # How to compile the app
