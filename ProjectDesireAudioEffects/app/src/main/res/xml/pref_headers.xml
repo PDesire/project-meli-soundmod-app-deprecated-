@@ -2,19 +2,19 @@
 
     <!-- These settings headers are only used on tablets. -->
     <header
-        android:fragment="com.example.pdesire.projectdesireaudioeffects.SettingsActivity$GeneralPreferenceFragment"
+        android:fragment="com.meli.pdesire.projectmeliaudioeffects.SettingsActivity$GeneralPreferenceFragment"
         android:icon="@null"
         android:title="@string/audio_settings" />
     <header
-        android:fragment="com.example.pdesire.projectdesireaudioeffects.SettingsActivity$HatsunePreferenceFragment"
+        android:fragment="com.meli.pdesire.projectmeliaudioeffects.SettingsActivity$HatsunePreferenceFragment"
         android:icon="@null"
         android:title="@string/hatsune_title" />
     <header
-        android:fragment="com.example.pdesire.projectdesireaudioeffects.SettingsActivity$MiscPreferenceFragment"
+        android:fragment="com.meli.pdesire.projectmeliaudioeffects.SettingsActivity$MiscPreferenceFragment"
         android:icon="@null"
         android:title="@string/pref_header_misc_snd" />
     <header
-        android:fragment="com.example.pdesire.projectdesireaudioeffects.SettingsActivity$DataSyncPreferenceFragment"
+        android:fragment="com.meli.pdesire.projectmeliaudioeffects.SettingsActivity$DataSyncPreferenceFragment"
         android:icon="@null"
         android:title="@string/pref_header_credits" />
 

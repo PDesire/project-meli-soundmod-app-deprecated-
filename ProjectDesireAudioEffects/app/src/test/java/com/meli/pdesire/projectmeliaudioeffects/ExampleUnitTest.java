@@ -1,4 +1,4 @@
-package com.example.pdesire.projectdesireaudioeffects;
+package com.meli.pdesire.projectmeliaudioeffects;
 
 import org.junit.Test;
 

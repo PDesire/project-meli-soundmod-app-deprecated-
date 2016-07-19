@@ -1,4 +1,4 @@
-package com.example.pdesire.projectdesireaudioeffects;
+package com.meli.pdesire.projectmeliaudioeffects;
 
 import android.annotation.TargetApi;
 import android.app.AlertDialog;

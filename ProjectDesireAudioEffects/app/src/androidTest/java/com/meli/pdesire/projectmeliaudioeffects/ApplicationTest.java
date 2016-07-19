@@ -1,4 +1,4 @@
-package com.example.pdesire.projectdesireaudioeffects;
+package com.meli.pdesire.projectmeliaudioeffects;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,8 +1,7 @@
-package com.example.pdesire.projectdesireaudioeffects;
+package com.meli.pdesire.projectmeliaudioeffects;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
-import android.app.AlertDialog;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.Preference;

@@ -1,4 +1,4 @@
-package com.example.pdesire.projectdesireaudioeffects;
+package com.meli.pdesire.projectmeliaudioeffects;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
