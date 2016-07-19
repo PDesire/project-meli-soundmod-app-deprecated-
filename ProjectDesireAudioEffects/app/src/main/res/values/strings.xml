@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Yume Audio Dreamer</string>
+    <string name="app_name">Meli Audio Settings</string>
 
     <string name="audio_settings">Audio Settings</string>
 
@@ -62,10 +62,10 @@
 
 	<!-- INFORMATION STRINGS -->
 
-    <string name="project_desire_scripting_description">2.A.0X1</string>
-    <string name="project_desire_scripting_title">Project Yume Scripting Type</string>
-    <string name="project_desire_version_description">Final Two, I found my Yume</string>
-    <string name="project_desire_version_title">Project Yume Version</string>
+    <string name="project_desire_scripting_description">0.5.2.2201.224</string>
+    <string name="project_desire_scripting_title">Project Meli App Version</string>
+    <string name="project_desire_version_description">Open Sourced 1.0</string>
+    <string name="project_desire_version_title">Project Meli Version</string>
     <string name="main_author_description">Tristan Marsell (PDesire)</string>
     <string name="main_author_title">Main Author</string>
     <string name="special_author_title">Special Credits</string>
@@ -96,5 +96,17 @@
     <string name="hatsune_speaker_description">Boosts Speaker to hear every vocal and every vibe like you have headphones</string>
     <string name="hatsune_speaker_title">Hatsune Speaker Booster</string>
 
+    <string name="what_is_hatsune">Project Hatsune is the first mod for external speaker systems, which enhance the sound to the maximum of abilities</string>
+    <string name="what_is_hatsune_title">What is Project Hatsune?</string>
 
+    <string name="important_hatsune">Project Hatsune is very experimental and not all features could work to 100%, I am not responsible for any crashes and bricks</string>
+    <string name="important_hatsune_title">Important Information:</string>
+
+
+    <!-- MISC STRINGS -->
+
+    <string name="credits_title">Credits:</string>
+    <string name="credits">App Teacher: Abo Hani \n \nInspiration: Kagamine Rin, Megpoid Gumi, Utsu-P, Megurine Luka, Hatsune Miku, Sony Corp. and Google Inc.\n \nMentor: Honaka Rie (jimRnor) \n \nAnd to: \n \nTeam Project Desire, Team Harmonics Symphonium, RXS Moonbreakers, TPD Developer Promotion Project Group and XTREMEMusic Big Family Group</string>
+    <string name="start_title">Informations</string>
+    <string name="start">You have to grant ROOT permissions if SuperSU ask you for it that all works fine :) \n \nAfter you finished to set your perfect settings, Reboot your device to let the changes work :)</string>
 </resources>

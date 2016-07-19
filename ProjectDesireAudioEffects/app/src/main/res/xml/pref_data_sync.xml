@@ -12,6 +12,7 @@
         android:summary="@string/team_author_description"
         />
     <Preference
+        android:key="version_click"
         android:title="@string/project_desire_version_title"
         android:summary="@string/project_desire_version_description"
         />

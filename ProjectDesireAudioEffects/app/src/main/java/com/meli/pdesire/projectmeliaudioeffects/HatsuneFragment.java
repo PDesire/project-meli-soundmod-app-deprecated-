@@ -27,8 +27,8 @@ public class HatsuneFragment extends PreferenceFragment {
         setHasOptionsMenu(true);
 
         final AlertDialog.Builder info = new AlertDialog.Builder(getActivity());
-        info.setTitle("What is Project Hatsune?");
-        info.setMessage("Project Hatsune is the first mod for external speaker systems, which enhance the sound to the maximum of abilities");
+        info.setTitle(getString(R.string.what_is_hatsune_title));
+        info.setMessage(R.string.what_is_hatsune);
         if (indicate_info <= 0){
             info.create();
             info.show();
@@ -36,8 +36,8 @@ public class HatsuneFragment extends PreferenceFragment {
         }
 
         final AlertDialog.Builder starter = new AlertDialog.Builder(getActivity());
-        starter.setTitle("Important Information:");
-        starter.setMessage("Project Hatsune is very experimental and not all features could work to 100%, I am not responsible for any crashes and bricks");
+        starter.setTitle(getString(R.string.important_hatsune_title));
+        starter.setMessage(R.string.important_hatsune);
         if (indicate <= 0){
             starter.create();
             starter.show();

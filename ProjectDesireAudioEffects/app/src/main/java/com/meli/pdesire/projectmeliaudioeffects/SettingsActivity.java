@@ -130,8 +130,8 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         loadHeadersFromResource(R.xml.pref_headers, target);
 
         final AlertDialog.Builder starter = new AlertDialog.Builder(this);
-        starter.setTitle("Informations:");
-        starter.setMessage("You have to grant ROOT permissions if SuperSU ask you for it that all works fine :)" + "\n" + "\n" + "After you finished to set your perfect settings, Reboot your device to let the changes work :)" + "\n" + "\n" + "This is for you Vera... ");
+        starter.setTitle(getString(R.string.start_title));
+        starter.setMessage(getString(R.string.start));
         if (indicate <= 0){
             starter.create();
             starter.show();
