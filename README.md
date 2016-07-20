@@ -15,9 +15,8 @@ To improve your want to app, are all goinng to be credited who made here commits
 * Here is a little buglist of the app:
 * Crashing layout on Tablets,
 * Misrenderings on LG Phones and Tablets,
-* Inefficient coded and hardcoded strings included which needs to be fixed,
+* Inefficient code which needs to be fixed,
 * Translations to other languages,
-* Renaming of app because name of Soundmod has been changed,
 
 
 # How to compile the app
