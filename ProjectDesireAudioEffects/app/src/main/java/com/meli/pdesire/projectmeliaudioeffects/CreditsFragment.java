@@ -7,10 +7,6 @@ import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 /**
  * Created by PDesire on 31.01.2016.
  */
@@ -23,7 +19,7 @@ public class CreditsFragment extends PreferenceFragment {
         super.onCreate(savedInstanceState);
 
 
-        addPreferencesFromResource(R.xml.pref_data_sync);
+        addPreferencesFromResource(R.xml.pref_other);
         setHasOptionsMenu(true);
         Preference reboot = (Preference) findPreference("credits_click");
         final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
