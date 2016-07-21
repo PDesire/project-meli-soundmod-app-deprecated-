@@ -14,7 +14,7 @@
         android:icon="@null"
         android:title="@string/pref_header_misc_snd" />
     <header
-        android:fragment="com.meli.pdesire.projectmeliaudioeffects.SettingsActivity$DataSyncPreferenceFragment"
+        android:fragment="com.meli.pdesire.projectmeliaudioeffects.SettingsActivity$CreditsPreferenceFragment"
         android:icon="@null"
         android:title="@string/pref_header_credits" />
 

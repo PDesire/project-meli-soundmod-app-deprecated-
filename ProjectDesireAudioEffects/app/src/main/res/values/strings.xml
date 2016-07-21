@@ -62,7 +62,7 @@
 
 	<!-- INFORMATION STRINGS -->
 
-    <string name="project_desire_scripting_description">0.5.2.3502.614</string>
+    <string name="project_desire_scripting_description">0.5.3.8159.128</string>
     <string name="project_desire_scripting_title">Project Meli App Version</string>
     <string name="project_desire_version_description">Open Sourced 1.0</string>
     <string name="project_desire_version_title">Project Meli Version</string>
@@ -109,4 +109,6 @@
     <string name="credits">App Teacher: Abo Hani \n \nInspiration: Kagamine Rin, Megpoid Gumi, Utsu-P, Megurine Luka, Hatsune Miku, Sony Corp. and Google Inc.\n \nMentor: Honaka Rie (jimRnor) \n \nAnd to: \n \nTeam Project Desire, Team Harmonics Symphonium, RXS Moonbreakers, TPD Developer Promotion Project Group and XTREMEMusic Big Family Group</string>
     <string name="start_title">Informations</string>
     <string name="start">You have to grant ROOT permissions if SuperSU ask you for it that all works fine :) \n \nAfter you finished to set your perfect settings, Reboot your device to let the changes work :)</string>
+    <string name="no_meli_title">NO PROJECT MELI INSTALLED</string>
+    <string name="no_meli">You have not Project Meli installed, without installed Project Meli this app do not work \n \nPlease the Project Meli Thread on XDA Developers to get the mod</string>
 </resources>

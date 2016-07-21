@@ -15,9 +15,10 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.List;
 
 /**
@@ -63,11 +64,6 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             return true;
         }
     };
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
 
     /**
      * Helper method to determine if the device has an extra-large screen. For
@@ -105,7 +101,6 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         setupActionBar();
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
     }
 
@@ -129,6 +124,35 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
     public void onBuildHeaders(List<Header> target) {
         loadHeadersFromResource(R.xml.pref_headers, target);
 
+        /* Project Meli Detector for future releases
+
+        Process p = null;
+        String board_platform = "";
+        try {
+            p = new ProcessBuilder("/system/bin/getprop", "project.meli.installed").redirectErrorStream(true).start();
+            BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()));
+            String line = "";
+            while ((line=br.readLine()) != null){
+                board_platform = line;
+            }
+            p.destroy();
+        } catch (IOException e) {
+// TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        if(board_platform != "yes "){
+            final AlertDialog.Builder starter = new AlertDialog.Builder(this);
+            starter.setTitle(getString(R.string.no_meli_title));
+            starter.setMessage(getString(R.string.no_meli));
+            if (indicate <= 0){
+                starter.create();
+                starter.show();
+                indicate = 1;
+            }
+        }
+        */
+
         final AlertDialog.Builder starter = new AlertDialog.Builder(this);
         starter.setTitle(getString(R.string.start_title));
         starter.setMessage(getString(R.string.start));
@@ -146,13 +170,14 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
     protected boolean isValidFragment(String fragmentName) {
         return PreferenceFragment.class.getName().equals(fragmentName)
                 || GeneralPreferenceFragment.class.getName().equals(fragmentName)
-                || DataSyncPreferenceFragment.class.getName().equals(fragmentName)
+                || CreditsPreferenceFragment.class.getName().equals(fragmentName)
                 || MiscPreferenceFragment.class.getName().equals(fragmentName)
                 || HatsunePreferenceFragment.class.getName().equals(fragmentName);
     }
 
     @Override
     public void onStart() {
+
         super.onStart();
     }
 
@@ -186,7 +211,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
 
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-    public static class DataSyncPreferenceFragment extends PreferenceFragment {
+    public static class CreditsPreferenceFragment extends PreferenceFragment {
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
